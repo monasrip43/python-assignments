@@ -277,4 +277,9 @@ To https://github.com/monasrip43/python-assignments
  + d2ad090...db6e446 main -> main (forced update)
 PS C:\Users\Lenovo\OneDrive\Desktop\crt assignments> git push origin main        
 Everything up-to-date
-PS C:\Users\Lenovo\OneDrive\Desktop\crt assignments> 
+
+#to get updated in the git we need to use these instructions:
+
+PS C:\Users\Lenovo\OneDrive\Desktop\crt assignments> git add .                     
+>> git commit -m "Updated git.txt"                     
+>>  git push origin main
