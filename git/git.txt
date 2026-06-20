@@ -1,0 +1,197 @@
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> & C:\Users\Lenovo\AppData\Local\Python\pythoncore-3.14-64\python.exe c:/Users/Lenovo/OneDrive/Desktop/pythoncrt/multithreading/heart_of_multithreading.py
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git config --global user.name "Monasri"
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git config --global user.email "monasrip43@gmail.com"
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git config --list                                    
+diff.astextplain.textconv=astextplain
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Monasri
+user.email=monasrip43@gmail.com
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git remote -v
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.required=true
+core.symlinks=false
+pull.rebase=false
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Monasri
+user.email=monasrip43@gmail.com
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git remote -v    
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git init
+Initialized empty Git repository in C:/Users/Lenovo/OneDrive/Desktop/pythoncrt/.git/
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git remote -v
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git remote add origin https://github.com/monasrip43/pythonpractice-
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git remote -v
+origin  https://github.com/monasrip43/pythonpractice- (fetch)
+origin  https://github.com/monasrip43/pythonpractice- (push)
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Image.jpeg
+        OOPS_concepts/
+        decorators/
+        dictionary/
+        functions/
+        generators/
+        iterators/
+        kadanes/
+        lists/
+        modules/
+        multithreading/
+        new.txt
+        newfile.txt
+        pointers/
+        prefix.py
+        prerequisites.py
+        recursion/
+        sets/
+        strings/
+        students.csv
+        subarray_subsequence/
+        test.py
+        time,spacecomplexity/
+        tuples/
+        users.txt
+        variables/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git add .
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Image.jpeg
+        new file:   OOPS_concepts/abstraction.py
+        new file:   OOPS_concepts/encapsulation.py
+        new file:   OOPS_concepts/exceptionhandling.py
+        new file:   OOPS_concepts/filehandling.py
+        new file:   OOPS_concepts/fundamentals.py
+        new file:   OOPS_concepts/inheritance.py
+        new file:   OOPS_concepts/methodoverriding.py
+        new file:   OOPS_concepts/polymorphism.py
+        new file:   decorators/decorators.py
+        new file:   dictionary/new_dict.py
+        new file:   dictionary/problems.py
+        new file:   functions/functions.py
+        new file:   generators/generators.py
+        new file:   iterators/iterators.py
+        new file:   kadanes/kadanes_algorithm.py
+        new file:   lists/list.py
+        new file:   modules/__pycache__/greeting.cpython-314.pyc
+        new file:   modules/__pycache__/modules.cpython-314.pyc
+        new file:   modules/greeting.py
+        new file:   modules/modules.py
+        new file:   multithreading/download.py
+        new file:   multithreading/heart_of_multithreading.py
+        new file:   multithreading/threading_concept.py
+        new file:   new.txt
+        new file:   newfile.txt
+        new file:   pointers/twopointers.py
+        new file:   prefix.py
+        new file:   prerequisites.py
+        new file:   prob2.py
+        new file:   prob3.py
+        new file:   recursion/rec.py
+        new file:   recursion/recursion.py
+        new file:   sets/sets.py
+        new file:   strings/freq.py
+        new file:   strings/text.py
+        new file:   strings/vowels.py
+        new file:   students.csv
+        new file:   subarray_subsequence/sub.py
+        new file:   time,spacecomplexity/problems.py
+        new file:   time,spacecomplexity/time.py
+        new file:   tuples/problems.py
+        new file:   tuples/tuples.py
+        new file:   users.txt
+        new file:   variables/bitwise.py
+        new file:   variables/controlflow/control.py
+        new file:   variables/operators.py
+        new file:   variables/operators.txt
+        new file:   variables/pseudocodes.txt
+        new file:   variables/variable.py
+        new file:   variables/variable.txt
+
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git commit -m "initial commit"
+[master (root-commit) 1f9e68f] initial commit
+ 52 files changed, 6324 insertions(+)
+ create mode 100644 Image.jpeg
+ create mode 100644 OOPS_concepts/abstraction.py
+ create mode 100644 OOPS_concepts/encapsulation.py
+ create mode 100644 OOPS_concepts/exceptionhandling.py
+ create mode 100644 OOPS_concepts/filehandling.py
+ create mode 100644 OOPS_concepts/fundamentals.py
+ create mode 100644 OOPS_concepts/inheritance.py
+ create mode 100644 OOPS_concepts/methodoverriding.py
+ create mode 100644 OOPS_concepts/polymorphism.py
+ create mode 100644 decorators/decorators.py
+ create mode 100644 dictionary/new_dict.py
+ create mode 100644 dictionary/problems.py
+ create mode 100644 functions/functions.py
+ create mode 100644 generators/generators.py
+ create mode 100644 iterators/iterators.py
+ create mode 100644 kadanes/kadanes_algorithm.py
+ create mode 100644 lists/list.py
+ create mode 100644 modules/__pycache__/greeting.cpython-314.pyc
+ create mode 100644 modules/__pycache__/modules.cpython-314.pyc
+ create mode 100644 modules/greeting.py
+ create mode 100644 modules/modules.py
+ create mode 100644 multithreading/download.py
+ create mode 100644 multithreading/heart_of_multithreading.py
+ create mode 100644 multithreading/threading_concept.py
+ create mode 100644 new.txt
+ create mode 100644 newfile.txt
+ create mode 100644 pointers/twopointers.py
+ create mode 100644 prefix.py
+ create mode 100644 prerequisites.py
+ create mode 100644 prob2.py
+ create mode 100644 prob3.py
+ create mode 100644 recursion/rec.py
+ create mode 100644 recursion/recursion.py
+ create mode 100644 sets/sets.py
+ create mode 100644 strings/freq.py
+ create mode 100644 strings/text.py
+ create mode 100644 strings/vowels.py
+ create mode 100644 students.csv
+ create mode 100644 test.py
+ create mode 100644 time,spacecomplexity/time.py
+ create mode 100644 tuples/tuples.py
+ create mode 100644 variables/bitwise.py
+ create mode 100644 variables/operators.py
+ create mode 100644 variables/operators.txt
+ create mode 100644 variables/variable.py
+ create mode 100644 variables/variable.txt
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git branch
+* master
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git switch main
+fatal: invalid reference: main
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git branch     
+* master
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git checkout -b main
+Switched to a new branch 'main'
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git branch          
+* main
+  master
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\Lenovo\OneDrive\Desktop\pythoncrt> 
